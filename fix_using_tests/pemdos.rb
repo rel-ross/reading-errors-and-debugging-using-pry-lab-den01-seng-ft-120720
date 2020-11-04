@@ -2,7 +2,7 @@
 require 'pry'
 def snake_it_up(string)
    puts 'start'
- define.pry
+ binding.pry
  puts 'stop'
   if string[0] == "s"
     "ssssssssss" + string
